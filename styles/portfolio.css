@@ -260,7 +260,8 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     nav ul, 
     .about-items,
     .skills-container,
-    .resume-container {
+    .resume-container,
+    footer {
         flex-direction: column;
     }
     main section {
@@ -284,7 +285,8 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     .banner {
         margin: 20px;
     }
-    .about {
+    .about,
+    footer {
         padding: 20px;
     }
     .skills .section-description{
@@ -295,6 +297,13 @@ footer input[type="text"], footer input[type="email"], footer textarea {
         max-width: fit-content;
         padding: 5px 5px;
         border: 1px solid #FFF8F3;     
+        }
+        .footer-column {
+            width: 100%;
+        }
+        footer input[type="text"], footer input[type="email"], footer textarea {
+            width: calc(100% - 40px)
+
         }
 }
 
