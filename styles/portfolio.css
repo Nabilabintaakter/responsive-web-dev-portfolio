@@ -248,13 +248,14 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     border: none;
 }
 
-/* responsive media query */
+/* responsive media query for mobile devices*/
 .hide{
     display: none;
 }
 
 @media screen and (max-width:576px){
-    .banner, nav, nav ul {
+
+    .banner, nav, nav ul, .about-items{
         flex-direction: column;
     }
     nav ul{
@@ -272,7 +273,15 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     .banner {
         margin: 20px;
     }
-
+    .about {
+        padding: 20px;
+    }
+    .jottoshob{
+        background-color: #FFF8F3;
+        max-width: fit-content;
+        padding: 5px 5px;
+        border: 1px solid #FFF8F3;     
+        }
 }
 
 
